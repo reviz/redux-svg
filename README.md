@@ -4,6 +4,12 @@
 
 Pan and zoom SVG viewbox with redux.
 
+## Example
+
+https://reviz.github.io/redux-svg/
+
+> see [example/src/](example/src/) for the source
+
 ## Actions
 
 ### `initialize`
@@ -38,10 +44,6 @@ Pan to given coordinates.
 - `x` : (`Number`)
 - `y` : (`Number`)
 
-### `resetPan`
-
-Reset pan.
-
 ### `center`
 
 Center the viewbox.
@@ -52,40 +54,16 @@ Relatively zoom by given scale.
 
 - `scale` : (`Number`)
 
-### `zoomFromWheelEvent`
+### `zoom`
 
-Helper action that take mouse input to compute the scale.
+Helper action that take mouse input to compute a scale value:
 
 - `e` : (`WheelEvent`)
-- `timeDelta` : (`Number`) time passed since the last mouse wheel event
-
-### `resetZoom`
-
-Reset zoom to 1.
-
-### `allowPan`
-
-Allow pan usage.
-
-### `denyPan`
-
-Forbid pan usage.
-
-### `allowZoom`
-
-Allow zoom usage.
-
-### `denyZoom`
-
-Forbid zoom usage.
-
-### `reset`
-
-Reset pan and zoom.
+- `timeDelta` : (`Number`) time passed since the last mousee
 
 ## Tests
 
-Simply clone the repo, npm install, and run npm test.
+Simply clone the repo, npm install, and run npm test
 
 ## Resources
 
