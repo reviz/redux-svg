@@ -58,7 +58,4 @@ typings/
 .env
 
 # Build
-build/
-lib/
-es/
-dist/
+public/bundle.js
