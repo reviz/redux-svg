@@ -44,7 +44,7 @@ Pan to given coordinates.
 - `x` : (`Number`)
 - `y` : (`Number`)
 
-### `resetPan`
+### `resetPan`
 
 Reset pan.
 
@@ -85,7 +85,7 @@ Allow zoom usage.
 
 Forbid zoom usage.
 
-### `reset`
+### `reset`
 
 Reset pan and zoom.
 
