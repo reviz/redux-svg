@@ -12,6 +12,7 @@ import {
   ZOOM_FROM_WHEEL_EVENT,
   RESET_ZOOM,
   RESET,
+  SET,
 } from "./constants";
 
 export const initialize = (width, height) => ({
@@ -90,4 +91,10 @@ export const reset = () => ({
   type: RESET,
   payload: null,
   meta: {},
+});
+
+export const set = (key, value) => ({
+  type: SET,
+  payload: value,
+  meta: { key },
 });

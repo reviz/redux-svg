@@ -17,6 +17,7 @@ import {
   DEFAULT_MAX_ZOOM_IN,
   DEFAULT_MAX_ZOOM_OUT,
   DEFAULT_ALLOW_PAN,
+  SET,
 } from "../constants";
 import allow from "./allow";
 import deny from "./deny";
@@ -29,6 +30,7 @@ import zoom from "./zoom";
 import zoomFromWheelEvent from "./zoomFromWheelEvent";
 import resetZoom from "./resetZoom";
 import reset from "./reset";
+import set from "./set";
 
 export const isPanAllowed = state => state.allowPan;
 export const isZoomAllowed = state => state.allowZoom;
@@ -107,6 +109,9 @@ export default (state = initialState, action) => {
 
     case RESET:
       return reset(state);
+
+    case SET:
+      return set(state, action);
 
     default:
       return state;

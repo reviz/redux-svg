@@ -17,3 +17,4 @@ export const ZOOM = "reviz/svg/ZOOM";
 export const ZOOM_FROM_WHEEL_EVENT = "reviz/svg/ZOOM_FROM_WHEEL_EVENT";
 export const RESET_ZOOM = "reviz/svg/RESET_ZOOM";
 export const RESET = "reviz/svg/RESET_ZOOM";
+export const SET = "reviz/svg/SET";

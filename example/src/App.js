@@ -8,6 +8,7 @@ import {
   center,
   panBy,
   zoomFromWheelEvent,
+  set,
 } from "redux-svg";
 
 class App extends Component {
@@ -29,6 +30,8 @@ class App extends Component {
 
   componentDidMount() {
     this.props.initialize(800, 600);
+    this.props.set("maxZoomIn", 100);
+    this.props.set("maxZoomOut", 0.01);
     this.props.center();
   }
 
@@ -116,6 +119,7 @@ export default connect(
   }),
   {
     initialize,
+    set,
     center,
     panBy,
     zoomFromWheelEvent,

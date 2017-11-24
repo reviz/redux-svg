@@ -16,6 +16,7 @@ export {
   zoomFromWheelEvent,
   resetZoom,
   reset,
+  set,
 } from "./actions";
 export { initialState, constants, getScaleFromWheelEvent };
 export {
