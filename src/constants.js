@@ -1,6 +1,6 @@
 export const DEFAULT_ALLOW_ZOOM = true; // If enabled, the user will be able to manually zoom the camera
 export const DEFAULT_ZOOM_SMOOTHNESS = 0.1; // The smoothness of the zoom
-export const DEFAULT_MAX_ZOOM_IN = 10; // Represents the maximum amount the camera should zoom in
+export const DEFAULT_MAX_ZOOM_IN = 100; // Represents the maximum amount the camera should zoom in
 export const DEFAULT_MAX_ZOOM_OUT = 0.1; // Represents the maximum amount the camera should zoom out
 export const DEFAULT_ALLOW_PAN = true; // If enabled, the user will be able to manually pan the camera.
 
