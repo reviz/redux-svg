@@ -55,8 +55,8 @@ export const getCenter = ({ width, height, scale = 1 } = {}) => ({
 export const getViewBoxCenter = state => getCenter({ ...getViewBox(state), scale: getZoom(state) });
 
 export const viewport = {
-  width: 0,
-  height: 0,
+  width: 1366,
+  height: 768,
 };
 
 export const initialState = {

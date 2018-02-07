@@ -1,6 +1,6 @@
 {
   "name": "redux-svg",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Pan and zoom SVG viewbox with redux",
   "main": "lib/index.js",
   "module": "es/index.js",
